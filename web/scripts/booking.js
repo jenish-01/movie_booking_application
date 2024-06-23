@@ -1,5 +1,5 @@
 let seats = document.querySelector(".all-seats");
-for (let i = 0; i < 59;i++)
+for (let i = 0; i < 60;i++)
 {
 let randint = Math.floor(Math.random() * 2);
 let booked = randint === 1? "booked": "";
